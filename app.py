@@ -30,5 +30,5 @@ def scrapeInternhsala(msg):
         print(f"An error occurred: {e}")
 
 
-# if __name__ == "__main__":
-#     socketio.run(app, allow_unsafe_werkzeug=True)
+if __name__ == "__main__":
+    socketio.run(app, allow_unsafe_werkzeug=True)
